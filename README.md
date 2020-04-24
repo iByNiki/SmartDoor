@@ -20,6 +20,7 @@ sudo apt-get install apache2
 sudo apt-get install php libapache2-mod-php
 sudo cd website
 sudo mv * /var/www/html/
+sudo echo 1 >> /var/www/html/distances.txt
 sudo cd ../raspberry
 sudo screen -S SmartDoor
 sudo python3 smartdoor.py
